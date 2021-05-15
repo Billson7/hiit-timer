@@ -21,7 +21,7 @@ function App() {
           placeholder="Enter exercise time"
           value={exerciseTime}
           onChange={(event) => {
-            setExerciseTime(event.target.value);
+            setExerciseTime(event.target.value.toLowerCase());
             setError(null);
           }}
         ></input>
