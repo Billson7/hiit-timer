@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: 25px;
+  color: #264653;
+  margin: auto;
+}
+
+.title {
+  color: #264653;
+  margin: 50px auto;
+}
+
+.alt-title {
+  display: none;
+}
+
+.errorMessage {
+  color: #e9c46a;
+  margin: 0;
+}
+
+code {
+  text-decoration: none;
+}
+
+.inputs {
+  margin: 0 auto;
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  font-family: "Victor Mono";
+  background-color: #f4a261;
+  padding: 10px;
+  font-size: 25px;
+  margin: 10px;
+  text-align: center;
+  color: #264653;
+}
+
+@media (max-width: 767px) {
+  .App-header {
+    margin: 50% auto;
+  }
+
+  .title {
+    display: none;
+  }
+
+  .alt-title {
+    display: flex;
+  }
+
+  .countdown {
+    text-align: center;
+    font-size: 50px;
+    margin: 20px 0;
+  }
+
+  .errorMessage {
+    color: #e9c46a;
+    text-align: center;
+    margin: 20px;
+  }
+
+  input {
+    margin: 20px 0;
+  }
+}

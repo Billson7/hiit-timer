@@ -1,0 +1,9 @@
+@import "victormono";
+
+body {
+  margin: 0;
+  font-family: "Victor Mono", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #2a9d8f;
+}
