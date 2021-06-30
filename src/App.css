@@ -7,19 +7,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
   font-size: 25px;
   color: #264653;
   margin: auto;
 }
 
-.title {
-  color: #264653;
-  margin: 50px auto;
-}
-
-.alt-title {
-  display: none;
+.countdown {
+  text-align: center;
+  font-size: 10rem;
+  margin: 20px 0;
 }
 
 .errorMessage {
@@ -52,17 +48,9 @@ input {
     margin: 50% auto;
   }
 
-  .title {
-    display: none;
-  }
-
-  .alt-title {
-    display: flex;
-  }
-
   .countdown {
     text-align: center;
-    font-size: 50px;
+    font-size: 10rem;
     margin: 20px 0;
   }
 

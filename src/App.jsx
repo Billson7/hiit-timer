@@ -9,8 +9,6 @@ function App() {
 
   return (
     <div className="App-header">
-      <h1 className="title">🏃‍♀️ Exercising, gettin' strong 💪</h1>
-      <h1 className="alt-title">🏃‍♀️ 💪</h1>
       {error && <p className="errorMessage">{error}</p>}
 
       {!timer.length && <h1 className="countdown">{timer}</h1>}

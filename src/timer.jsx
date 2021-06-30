@@ -11,9 +11,6 @@ export default function Timer(exerciseTime, setError) {
 
     if (difference > 0) {
       timeLeft = {
-        // day: Math.floor(difference / (1000 * 60 * 60 * 24)),
-        // hour: Math.floor((difference / (1000 * 60 * 60)) % 24),
-        // minute: Math.floor((difference / 1000 / 60) % 60),
         seconds: Math.floor((difference / 1000) % 60),
       };
     }
@@ -50,7 +47,11 @@ export default function Timer(exerciseTime, setError) {
 
   return (
     <div>
-      {timeLeft.seconds > 40 ? <span>🥵 REST 🥵</span> : timerComponents}
+      {timeLeft.seconds > 20 ? (
+        timeLeft.seconds
+      ) : (
+        <span style={{ color: "#e9c46a" }}>{timeLeft.seconds}</span>
+      )}
     </div>
   );
 }
