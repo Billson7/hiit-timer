@@ -4,6 +4,6 @@
 
 Counts 40 on, 20 seconds off
 
-[Check it out!](https://hiit-workout-timer.netlify.app/))
+[Check it out!](https://hiit-workout-timer.netlify.app/)
 
 This project was built with [React](https://reactjs.org/) & [Vite](https://vitejs.dev/)
